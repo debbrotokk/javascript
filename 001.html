@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+function myfunction(){
+    document.getElementById("function").innerHTML="Hy i came from function";
+    
+        }
+       
+</script>
+
+</head>
+<body>
+<p id="para0"></p>
+<p id="function" >call by function</p>
+<button onclick="myfunction()">Click me</button>
+
+    <p id="par1">Hello Word</p>
+<button id="button1" onclick='document.getElementById("par1").innerHTML="hi bro" '> Click me</button>
+<p id="par2">Hello Bangladesh</p>
+<button id="button2" onclick='document.getElementById("par2").style.fontSize="35px" '>Click me</button>
+<p id="para3">This is para</p>
+<button onclick='document.getElementById("para3").style.display="none" '> clickme </button>
+<p id="para4" style="display: none;" >This is hide para</p>
+<button onclick='document.getElementById("para4").style.display="block"'>Click me</button>
+
+<script>
+   
+   document.getElementById("para0").innerHTML="this is zero para";
+    </script>
+
+</html>
